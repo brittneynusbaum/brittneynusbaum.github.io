@@ -4006,6 +4006,11 @@ input, select, textarea {
 
 	.content {
     grid-area: content;
-    max-width: 60rem;
-    position: relative;
+    position: center;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(17%);
 }
