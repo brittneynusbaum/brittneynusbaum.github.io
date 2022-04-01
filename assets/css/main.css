@@ -4014,3 +4014,12 @@ input, select, textarea {
 		-ms-transform: translateY(-50%);
 		transform: translateY(17%);
 }
+
+.content2 {
+	grid-area: content;
+	position: center;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	top: 50%;
+}
