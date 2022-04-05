@@ -139,26 +139,26 @@
 					<h2>Contact Me</h2>
 					<p>Feel free to reach out with any questions or opportunities to work together!</p>
 				</header>
-				<ul class="actions stacked">
-					<div class="content2">
-						<form action="https://formspree.io/f/xeqnlzjp" method="POST">
-							<div class="fields">
-								<div class="field half">
-									<input type="text" name="name" id="name" placeholder="Name">
-								</div>
-								<div class="field half">
-									<input type="email" name="email" id="email" placeholder="Email">
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-								</div>
-							</div>
+				<form method="POST" action="https://formspree.io/f/xeqnlzjp">
+					<div class="row gtr-uniform">
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+						</div>
+
+						<div class="col-12">
+							<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+						</div>
+						<div class="col-12">
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" class="button primary"></li>
+								<li><input type="submit" value="Send Message" class="primary" /></li>
+								<li><input type="reset" value="Reset" /></li>
 							</ul>
-						</form>
+						</div>
 					</div>
-				</ul>
+				</form>
 			</div>
 		</section>
 
