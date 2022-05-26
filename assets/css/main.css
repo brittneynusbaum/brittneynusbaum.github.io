@@ -4171,7 +4171,7 @@ body.is-mobile.landing #footer {
 	grid-area: content;
 	position: center;
 	width: 100%;
-	text-align: left;
-	margin-left: 10%;
+	text-align: center;
+	/* margin-left: 10%; */
 	top: 50%;
 }
